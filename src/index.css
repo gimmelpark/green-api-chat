@@ -9,7 +9,6 @@
     Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
-/* значения по умолчанию, обновляются из visualViewport в common/viewport.ts */
 :root {
   --app-height: 100dvh;
   --app-offset-top: 0px;
