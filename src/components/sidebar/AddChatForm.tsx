@@ -89,7 +89,7 @@ function AddChatForm({ handleCancelClick, handleAddClick }: IProps) {
   }
 
   return (
-    <div className="flex flex-1 flex-col items-center justify-center px-6">
+    <div className="flex min-h-0 flex-1 flex-col items-center justify-center-safe overflow-y-auto px-6">
       <form className="flex h-47 w-full flex-col justify-end gap-7" onSubmit={handleSubmit}>
         {searchResult ? (
           <div className="flex min-w-0 flex-col gap-3">

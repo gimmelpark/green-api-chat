@@ -24,7 +24,7 @@ function ActiveChat({ chat }: IProps) {
     <div className="flex min-h-0 flex-1 flex-col">
       <ChatHeader handleBackClick={handleBackClick} chat={chat} />
 
-      <div className="flex min-h-0 flex-1 flex-col-reverse overflow-y-auto bg-blue-200">
+      <div className="flex min-h-0 flex-1 flex-col-reverse overflow-y-auto bg-chat-bg">
         <div className="mt-4 flex flex-col xl:items-center">
           <div className="mx-8 flex-1 lg:mx-32 xl:mx-0 xl:w-200">
             <ChatMessages chatId={chat.chatId} />

@@ -63,7 +63,7 @@ function AppLayout() {
   ]);
 
   return (
-    <div className="flex h-dvh flex-col">
+    <div className="fixed inset-x-0 top-(--app-offset-top) flex h-(--app-height) flex-col">
       <Header />
 
       <div className="flex min-h-0 flex-1">

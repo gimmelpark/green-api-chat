@@ -1,9 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #3390ec;
-  --color-primary-hover: #2a7fd4;
+  --color-primary: var(--color-blue-500);
+  --color-primary-hover: var(--color-blue-600);
+  --color-chat-bg: var(--color-blue-200);
 
   --font-sans:
     Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* значения по умолчанию, обновляются из visualViewport в common/viewport.ts */
+:root {
+  --app-height: 100dvh;
+  --app-offset-top: 0px;
 }
