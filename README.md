@@ -13,7 +13,7 @@ npm install
 npm run dev
 ```
 
-Приложение будет доступно на http://localhost:5173.
+Приложение будет доступно на http://localhost:5173/green-api-chat.
 
 Сборка: `npm run build`, посмотреть собранную версию: `npm run preview`.
 
