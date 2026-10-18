@@ -1,5 +1,7 @@
 # GREEN-API Telegram Chat
 
+Приложение можно попробовать [тут](https://gimmelpark.github.io/green-api-chat/).
+
 Тестовое задание на позицию фронтенд разработчика React в GREEN-API.
 
 Простой чат для отправки и получения текстовых сообщений Telegram через [GREEN-API](https://green-api.com).
